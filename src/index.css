@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: linear-gradient(125deg, #111, #00014a);
+  color: whitesmoke;
+  font-family: 'Source Serif Pro', serif;
+
+}
+
+.app-header {
+  background-image: url("/public/assets/fondo_header.avif");
+  background-position: center;
+  background-size: contain;
+  opacity: 0.8;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 6px 5px black;
+
+
+
+}
+
+
+.foto-perfil {
+  width: 275px;
+  height: 250px;
+  border-radius: 30%;
+  box-shadow: 2px 4px 10px azure;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  background: linear-gradient(#00014a, #aaa);
+  padding-left: 20px;
+
+
+
+}
+
+p {
+  opacity: 0.5;
+}
+
+.lista_iconos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.github_button {
+  background: grey;
+  color: #171515
+}
+
+.bi-github,
+.bi-linkedin {
+  opacity: 0.8;
+}
+
+.bi-github:hover,
+.bi-linkedin:hover {
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+}
+
+.skills_div {
+
+  margin: auto;
+  margin-top: 60px;
+  width: 93%;
+  height: 250px;
+  padding-top: 10px;
+
+
+}
+
+.pdf_button {
+  padding: 4px;
+  width: 36px;
+  margin-bottom: 21px;
+  font-size: 18px;
+  height: 32px;
+}
+
+.navbar-brand {
+  opacity: .8;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+}
+
+.form_footer {
+
+  box-shadow: 3px 3px 12px 5px black;
+
+}
+
+.card {
+  border-radius: 1px solid black;
+  box-shadow: 2px 2px 4px 4px rgb(56, 56, 56);
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px 2px azure;
+}
+
+
+
+h1 {
+  animation-duration: 3s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+
+}
+
+.header_container {
+  animation-duration: 3s;
+  animation-name: slideIn;
+  animation-iteration-count: 1;
+
+}
+
+@media screen and (max-width:400px) {
+  .lista_iconos {
+
+    justify-content: start;
+  }
+  
+
+}
+
+@keyframes pulse {
+  0% {
+    color: #222;
+  }
+
+  100% {
+    color: azure;
+  }
+
+}
+
+@keyframes slideIn {
+  from {
+    margin-top: -100px;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
