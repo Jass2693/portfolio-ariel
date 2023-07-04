@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "Jass2693.github.io/portfolio-ariel",
+  "homepage": "https://Jass2693.github.io/portfolio-ariel",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
